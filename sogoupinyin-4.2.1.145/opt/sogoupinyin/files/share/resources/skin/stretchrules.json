@@ -1,0 +1,68 @@
+{
+    "skinStretchRules": [{
+            "skinName": [
+                "default",
+                "defaultBlackSkinAllowCompositing",
+                "defaultBlackSkinNoAllowCompositing",
+                "defaultWhiteSkinAllowCompositing",
+                "defaultNoAllowCompositing",
+                "活力小橙",
+                "活力小橙-Compositing",
+                "简约泌蓝",
+                "简约泌蓝-Compositing",
+                "深邃冰蓝",
+                "深邃冰蓝-Compositing",
+                "至纯至简",
+                "至纯至简-Compositing",
+                "尊贵黑金",
+                "尊贵黑金-Compositing"
+            ],
+            "defaultKeyboardWidth": 1080,
+            "defaultKeyboardHeight": 388,
+            "maxDefaultKeyboardHeight": 671,
+            "stretchMode": 1,
+            "horizontalStretchFactor": 0.0,
+            "verticalStretchFactor": 0.0,
+            "fontSelfStretch": false,
+            "fontStretchFactor": 1.0,
+            "minHorizontalStretchFactor": 0.8,
+            "minVerticalStretchFactor": 0.8
+        },
+        {
+            "skinName": [
+                "default_sst"
+            ],
+            "defaultKeyboardWidth": 1920,
+            "defaultKeyboardHeight": 486,
+            "maxDefaultKeyboardHeight": 671,
+            "stretchMode": 1,
+            "horizontalStretchFactor": 0.0,
+            "verticalStretchFactor": 0.0,
+            "fontSelfStretch": false,
+            "fontStretchFactor": 1.0,
+            "minHorizontalStretchFactor": 0.6,
+            "minVerticalStretchFactor": 0.6
+        }
+    ],
+    "minScreenInch": 13.0,
+    "horizontalMinScreenInch": 7.9,
+    "maxStretchFactorPercent": 0.8,
+    "maxVerticalStretchFactorPercent": 0.45,
+    "stretchModes": [{
+            "mode": 0,
+            "stretchModeName": "notstretch"
+        },
+        {
+            "mode": 1,
+            "stretchModeName": "autostretch"
+        },
+        {
+            "mode": 2,
+            "stretchModeName": "manualstretch"
+        },
+        {
+            "mode": 3,
+            "stretchModeName": "horizontalSpread"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=sogoupinyin-watchdog
+Name[zh_CN]=搜狗输入法个人版 守护进程
+GenericName=sogoupinyin-watchdog
+GenericName[zh_CN]=搜狗输入法个人版 守护进程
+Comment=sogoupinyin-watchdog
+Comment[zh_CN]=搜狗输入法个人版 守护进程
+Keywords=ime;imf;input;
+Exec=/opt/sogoupinyin/files/bin/sogoupinyin-watchdog
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=System;Utility;
+StartupNotify=false
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-Autostart-Notify=false
+X-GNOME-Autostart-Delay=3
+X-KDE-autostart-phase=1
+X-KDE-autostart-after=panel
+X-MATE-Autostart-Phase=Applications
+X-MATE-Autostart-Delay=3
+X-MATE-Autostart-Notify=false

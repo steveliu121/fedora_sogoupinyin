@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sogoupinyin-specialsymbol
+Name[zh_CN]=搜狗输入法个人版 符号大全
+Keywords=sogoupinyin-specialsymbol;imf;input;
+Exec=/opt/sogoupinyin/files/bin/sogoupinyin-specialsymbol
+Icon=/opt/sogoupinyin/files/share/resources/skin/logo/logo.png
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=System;Utility;

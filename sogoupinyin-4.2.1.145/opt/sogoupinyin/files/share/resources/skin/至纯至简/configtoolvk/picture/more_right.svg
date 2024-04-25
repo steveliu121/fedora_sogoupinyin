@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="28px" viewBox="0 0 14 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>更多</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="列表" transform="translate(-491.000000, -26.000000)" fill-rule="nonzero">
+            <g id="更多" transform="translate(491.000000, 26.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="14" height="28"></rect>
+                <path d="M2.64333677,4 L12.9930269,14.4890052 L12.986,14.496 L13,14.5102094 L2.65030991,25 L1.00697314,23.3335078 L9.718,14.502 L1,5.66492144 L2.64333677,4 Z" id="形状结合" fill="#9F9F9F"></path>
+            </g>
+        </g>
+    </g>
+</svg>

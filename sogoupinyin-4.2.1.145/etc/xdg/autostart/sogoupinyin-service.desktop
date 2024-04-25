@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=sogoupinyin-service
+Name[zh_CN]=搜狗输入法个人版
+GenericName=sogoupinyin-service
+GenericName[zh_CN]=搜狗输入法个人版
+Comment=sogoupinyin-service
+Comment[zh_CN]=搜狗输入法个人版
+Keywords=ime;imf;input;
+Exec=/opt/sogoupinyin/files/bin/sogoupinyin-service
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=System;Utility;
+StartupNotify=false
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-Autostart-Notify=false
+X-GNOME-Autostart-Delay=2
+X-KDE-autostart-phase=1
+X-KDE-autostart-after=panel
+X-MATE-Autostart-Phase=Applications
+X-MATE-Autostart-Delay=2
+X-MATE-Autostart-Notify=false

@@ -1,0 +1,60 @@
+{
+  "associate": 
+  {
+    "ngram_sys": 
+    {
+      "match_rate": 1000,
+      "pow_base": 0.5  
+    },
+    "ngram_usr": 
+    {
+      "match_rate": 1500,
+      "freq_rate": 1000,
+      "pow_base": 0.5  
+    },
+    "lstm_merge_rate": 0.9
+  },
+  "basic": 
+  {
+    "length_rate": 150,
+    "usr_freq_rate": 200,
+    "usr_freq_base": 2000,
+    "phrase_punish_rate": 5,
+    "general_match_award": 1500,
+    "exact_match_award": 3000
+  },
+  "context": 
+  {
+    "no_correct": [1000, 6000, 23, 400, 0, 300, 3000],
+    "single_correct": [1000, 6000, 23, 0, 0, 250, 2000],
+    "multi_correct": [1000, 6000, 23, 0, 0, 250, 2000],
+    "lstm_composing_rate": 4000
+  },
+  "correct": 
+  {
+    "length_punish": 1500,
+    "words_punish": 10,
+    "full_match_award": 1000,
+    "upper_input_punish": 4000,
+    "em_weight": 3,
+    "sub_adjust_rate": 3.5,
+    "distance_rate": 2.0,
+    "doubleIns_doubleNonSub_rate": 1.2,
+    "usr_src_del": [5, 17, 25],
+    "usr_src_nodel": [5, 10, 25, 50],
+    "em_adjust": [2000, 1000, 1200],
+    "pos_cal": [0.9, 1.4],
+    "del_adjust_rate": [8.0, 1.8, 1.5],
+    "tail_insert": [2.0, 2.5],
+    "del_punish": [6.0, 6.0, 3.0]
+  },
+  "adjustfirst":
+  {
+    "input_head_threshold": 600,
+	"multi_sys_threshold": 600,
+	"single_sys_threshold": 800,
+	"candreq_hascontext_award":0,
+	"candreq_nocontext_award":4000,
+	"inputlen_threshold": 0
+  }
+}

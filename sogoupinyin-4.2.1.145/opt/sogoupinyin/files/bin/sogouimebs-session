@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "x$1" = "x-h" ] || [ "x$1" = "x--help" ] || [ "x$1" = "x" ]; then
+    echo "Unknown option: $1"
+    echo "Usage: $0 SESSION-PROGRAM"
+    exit 1
+fi
+
+START_SESSION="$@"
+exec $START_SESSION

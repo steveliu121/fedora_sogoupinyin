@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<license>
+    <product>
+        <ui>
+            <default_skin_name>default</default_skin_name>
+            <runtime_name>搜狗输入法个人版</runtime_name>
+            <auth_name>搜狗输入法</auth_name>
+        </ui>
+        <function_custom>
+            <feat_custom_configtool_authskin>false</feat_custom_configtool_authskin>
+            <feat_custom_configtool_add_authfile>false</feat_custom_configtool_add_authfile>
+            <feat_custom_configtool_authinfo>false</feat_custom_configtool_authinfo>
+        </function_custom>
+        <authtest_content>
+            <beta_statement_policy>default</beta_statement_policy>
+            <beta_out_of_date>9999-12-31</beta_out_of_date>
+        </authtest_content>
+        <condition_active>
+            <active_date>1000-01-01</active_date>
+            <deactive_date>9999-12-31</deactive_date>
+            <out_of_date>9999-12-31</out_of_date>
+            <expire_action>default</expire_action>
+        </condition_active>
+    </product>
+    <signature>68217b59621ed8344c6f741042b169ea194b497fe68e72544c8df2a2eb296ab1a13785a304f8d79f457038533dad2227be398f95b7c69f55595668e93afce8f1c080e00ae6a5970d279162c512e30fe1fc9e888488026fecc1ce4fda8e087951434c8047d848affce346ac20e6e614b1487926b222767fdae1f8cd2c971ae4f390f759036dc0f0d8fb1e5d8db9bbae44b948292433dff3244c73cf55b7acc0b0a3811e2aeecb8f61e08eb9e31350f593b34622f862a0afb28ba99a95ed2fd5076053a3d97d630ca30af0c8b9c53cea5ae0382e4572b9fff39b22ebe2ca6c0455ef33fae59e0ae750d905e4191d91f7d9f86a0a09c51b20ba1fab4d9a8de5b286</signature>
+</license>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sogoupinyin-configtool
+Name[zh_CN]=搜狗输入法个人版 属性设置
+Keywords=sogoupinyin-configtool;imf;input;
+Exec=/opt/sogoupinyin/files/bin/sogoupinyin-configtool
+Icon=/opt/sogoupinyin/files/share/resources/skin/logo/logo.png
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=System;Utility;
