@@ -6,6 +6,17 @@ Summary: Business Sogou Input Method
 License: see /usr/share/doc/sogoupinyin/copyright
 Distribution: Debian
 Group: Converted/utils
+Requires: fcitx
+Requires: fcitx-ui-light
+Requires: fcitx-qt5
+Requires: fcitx-gtk3
+Requires: fcitx-table
+Requires: fcitx-table-extra
+Requires: fcitx-table-other
+Requires: fcitx-table-chinese
+Requires: fcitx-data
+Requires: fcitx-pinyin
+Requires: fcitx-configtool
 
 %define _rpmdir ../
 %define _rpmfilename %%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm
