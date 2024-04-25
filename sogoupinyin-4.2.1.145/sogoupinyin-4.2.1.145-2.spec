@@ -70,6 +70,7 @@ China, and Sogou promises it will always be free of charge.
 %config "/etc/X11/Xsession.d/72sogoupinyinsogouimebs"
 %config "/etc/xdg/autostart/sogoupinyin-service.desktop"
 %config "/etc/xdg/autostart/sogoupinyin-watchdog.desktop"
+%config "/etc/profile.d/fcitx.sh"
 %dir "/opt/sogoupinyin/"
 %dir "/opt/sogoupinyin/files/"
 %dir "/opt/sogoupinyin/files/.license/"
