@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_correct</title>
+    <g id="引导" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_correct" fill-rule="nonzero">
+            <path d="M18,0 C27.9413571,0 36,8.05907143 36,18 C36,27.9413571 27.9413571,36 18,36 C8.05907143,36 0,27.9413571 0,18 C0,8.05907143 8.05907143,0 18,0 Z" id="路径" fill="#9DD258"></path>
+            <polygon id="路径" fill="#FFFFFF" points="28.3335 12.5931429 15.4114286 25.515 15.3512143 25.455 15.2912143 25.515 7.66671429 18.8905714 9.77528571 16.449 15.3516429 21.3585 26.2251429 10.4845714"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,205 @@
+*{outline:none;}
+
+QPushButton {
+    border:1px solid #bec7cf;
+    border-radius: 0px;
+    background-color: #eff2f6;
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color:#000000;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 120, 70, 10%);
+    border:1px solid #ff7846;
+    color:#000000;
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 120, 70, 30%);
+    border:1px solid #ff7846;
+    color:#000000;
+}
+
+QDialog {
+    border:1px solid #b6bac1;
+    border-radius: 0px;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+QLabel {
+    font-size: 10pt;
+    font-family: "Microsoft YaHei";
+    border:0px;
+    background-color:#ffffff;
+    padding:0x;
+    color:#000000;
+}
+
+QLabel#single_machine_label {
+    font-size: 10pt;
+    font-family: "Microsoft YaHei";
+    border:0px;
+    background: transparent;
+    padding:0x;
+    color:#000000;
+}
+
+QLabel#logo {
+     background-image:url("resource/logo22x22.svg");
+     border:0px;
+     background-color:#ffffff;
+     padding:0x;
+}
+
+QLabel#secondTitle {
+     font-size: 10pt;
+     font-family: "Microsoft YaHei";
+     border:0px;
+     background-color:#ffffff;
+     padding:0x;
+     color:#000000;
+}
+
+QPushButton#close {
+    border:0px ;
+    border-radius: 0px;
+    background-image:url("resource/popup_close_default.svg");
+    background-color:#ffffff;
+}
+
+QPushButton#close:hover {
+    background-image:url("resource/popup_close_hover.svg");
+}
+
+QPushButton#close:pressed {
+    background-image:url("resource/popup_close_pressed.svg");
+}
+
+QLabel#imageVaildSuccess {
+     background-image:url("resource/icon_correct.svg");
+     border:0px;
+     background-color:#ffffff;
+     padding:0x;
+}
+
+QLabel#imageVaildFaild {
+     background-image:url("resource/icon_error.svg");
+     border:0px;
+     background-color:#ffffff;
+     padding:0x;
+}
+
+QTextEdit {
+    background-color:#ffffff;
+    border:1px solid #bec7cf;
+    border-radius: 0px;
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color:#000000;
+}
+
+QScrollBar:vertical {
+    border: 0px ;
+    background: #ffffff;
+    height: 48px;
+    width: 6px;
+    margin: 2px 2px 2px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c1c3c6;
+    width: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical {
+     border: none;
+     background: none;
+}
+
+QScrollBar::sub-line:vertical {
+     border: none;
+     background: none;
+}
+
+QPushButton#linker {
+    border:none;
+    background: transparent;
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color: #0078d7;
+    text-decoration:underline;
+}
+
+QPushButton#linker:hover {
+    border:none;
+    background: transparent;
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color:#0065b8;
+    text-decoration:underline;
+}
+
+QPushButton#linker:pressed {
+    border:none;
+    background: transparent;
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color:#0065b8;
+    text-decoration:underline;
+}
+
+QPushButton#input {
+    border:1px solid #ff7846;
+    border-radius: 0px;
+    background-color: rgba(255, 120, 70, 10%);
+    font-family: "Microsoft YaHei";
+    font-size: 10pt;
+    color:#000000;
+}
+
+QPushButton#input:hover {
+    background-color: rgba(255, 120, 70, 30%);
+    border:1px solid #ff7846;
+    color:#000000;
+}
+
+QPushButton#input:pressed {
+    background-color: rgba(255, 120, 70, 30%);
+    border:1px solid #ff7846;
+    color:#000000;
+}
+
+/* 导入导出按钮 */
+QPushButton#single_machine_button {
+    background-color: #ffffff;
+    border: 1px solid #bec7cf;
+    color: #000000;
+}
+QPushButton#single_machine_button:hover {
+    background-color: rgba(255, 120, 70, 10%);
+    border: 1px solid #ff7846;
+    color: #000000;
+}
+QPushButton#single_machine_button:pressed {
+    background-color: rgba(255, 120, 70, 20%);
+    border: 1px solid #ff7846;
+    color: #000000;
+}
+QPushButton#single_machine_button:checked {
+    background-color: #ff7846;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QFrame#single_machine_frame {
+    border-top: 1px solid #e3e7ed;
+    border-bottom: 1px solid #e3e7ed;
+    border-left: 1px solid #e3e7ed;
+    border-right: 1px solid #e3e7ed;
+
+    background-color: #f7f8f9;
+    color : #f7f8f9;
+}
