@@ -7,6 +7,9 @@
 - sogoupinyin rpm包的构建
 - sogoupinyin rpm包的安装
 
+这里是已经编译好的rpm安装包，可以参考安装部分指导直接安装：
+[sogoupinyin-4.2.1.145-2.x86_64.rpm](https://github.com/steveliu121/fedora_sogoupinyin/releases/download/v0.1/sogoupinyin-4.2.1.145-2.x86_64.rpm)
+
 参考资料：
 [Fedora Workstation 36安装搜狗拼音输入法](https://blog.csdn.net/codestore/article/details/132255059)
 
@@ -78,6 +81,7 @@ sudo dnf remove ibus
 
 - 安装sogoupinyin rpm
 
+[sogoupinyin-4.2.1.145-2.x86_64.rpm](https://github.com/steveliu121/fedora_sogoupinyin/releases/download/v0.1/sogoupinyin-4.2.1.145-2.x86_64.rpm)
 ```bash
 # 使用dnf localinstall会自动安装依赖
 sudo dnf localinstall sogoupinyin-4.2.1.145-2.x86_64.rpm
